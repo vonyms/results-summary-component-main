@@ -1,47 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/style.css">
+
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  Your Result
-  76
-  of 100
+  <div class="container">
+    <div class="block-summary">
+      <div class="block-summary--intern">
+        
+        <div class="block-summary--item">
+          <div class="block-summary--item-left">
+            <div class="block-summary--item-left-intern">
+              <div class="title">Your Result</div>
+              <div class="block-circle">
+                <div class="block-circle--intern">
+                  <div class="h1">76</div>
+                  <div class="text-medium text-grey">of 100</div>
+                </div>
+              </div>
+              <div class="h2 text-white">Great</div>
+              <p class="text-grey paragraph">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+          </div>
+        </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+        <div class="block-summary--item">
+          <div class="block-summary--item-right">
+            <div class="block-summary--item-right-intern">
+              <div class="title text-black">Summary</div>
+              <div class="block-list">
 
-  Reaction
-  80 / 100
+                <div class="block-list--item">
+                  <div class="block-list--item-intern background-red">
+                    <div class="block-list--item-intern--left">
+                      <div class="icon"><img src="./assets/images/icon-reaction.svg" alt="Reaction"
+                          srcset="./assets/images/icon-reaction.svg"></div>
+                      <div class="title-list--item text-red">Reaction</div>
+                    </div>
+                    <div class="block-list--item-intern--right">
+                      <div class="text-black">80</div>
+                      <div class="text-grey"> / 100</div>
+                    </div>
+                  </div>
+                </div>
 
-  Memory
-  92 / 100
+                <div class="block-list--item">
+                  <div class="block-list--item-intern background-yellow">
+                    <div class="block-list--item-intern--left">
+                      <div class="icon"><img src="./assets/images/icon-memory.svg" alt="Reaction"
+                          srcset="./assets/images/icon-memory.svg"></div>
+                      <div class="title-list--item text-yellow">Memory</div>
+                    </div>
+                    <div class="block-list--item-intern--right">
+                      <div class="text-black">92</div>
+                      <div class="text-grey"> / 100</div>
+                    </div>
+                  </div>
+                </div>
 
-  Verbal
-  61 / 100
+                <div class="block-list--item">
+                  <div class="block-list--item-intern  background-green">
+                    <div class="block-list--item-intern--left">
+                      <div class="icon"><img src="./assets/images/icon-verbal.svg" alt="Reaction"
+                          srcset="./assets/images/icon-verbal.svg"></div>
+                      <div class="title-list--item text-green">Verbal</div>
+                    </div>
+                    <div class="block-list--item-intern--right">
+                      <div class="text-black">61</div>
+                      <div class="text-grey"> / 100</div>
+                    </div>
+                  </div>
+                </div>
 
-  Visual
-  72 / 100
+                <div class="block-list--item">
+                  <div class="block-list--item-intern background-blue">
+                    <div class="block-list--item-intern--left">
+                      <div class="icon"><img src="./assets/images/icon-visual.svg" alt="Visual"
+                          srcset="./assets/images/icon-visual.svg"></div>
+                      <div class="title-list--item text-blue">Visual</div>
+                    </div>
+                    <div class="block-list--item-intern--right">
+                      <div class="text-black">72</div>
+                      <div class="text-grey"> / 100</div>
+                    </div>
+                  </div>
+                </div>
 
-  Continue
-  
+              </div>
+
+              <div class="block-bottom">
+                <a href="#" class="btn-primary">Continue</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Voni</a>.
   </div>
 </body>
+
 </html>
