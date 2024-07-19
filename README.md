@@ -5,21 +5,13 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
-
-### The challenge
-
-- Interface depending on the device's screen size
-- Hover and focus states for all interactive elements on the page
-- Using the local JSON data to dynamically populate the content
 
 ### Screenshot
 
@@ -38,14 +30,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- React - JS library
-
-### What I learned
-
-- Using of sass
-- Manipulate Json data
-- Create React projet
 
 ## Author
 
